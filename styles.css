@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  
+  .header {
+    width: 80%;
+    padding: 10% 1% 20% 1%;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    color: black;
+  }
+  
+  
+ .header .headerElement {
+     float: left;
+     width: 20%;
+ }
+
+
+ #buy {
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom-width: thin;
+     margin-top: 20%;
+     margin-left: 70%;
+     margin-right: 1%;
+     
+ }
+
+ #search {
+   margin-top: 3.5%;
+ }
+
+ #rightElement {
+   margin-left: 20%;
+   float: right;
+ }
+
+ input, select, textarea {
+    color: gray;
+    }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    font-size: 1vw;
+  }
+  
+  .button {
+    float: left;
+    display: block;
+    color: black;
+    padding: 1% 1.9% 0.5% 1.9%;
+    text-decoration: none;
+  }
+
+  .buttonLeft {
+    float: left;
+    display: block;
+    color: black;
+    padding: 1% 1.9% 0.5% 0.5%;
+    text-decoration: none;
+  }
+
+  .buttonRight {
+    float: right;
+    display: block;
+    color: black;
+    padding: 1% 0.5% 0.5% 1.9%;
+    text-decoration: none;
+  }
+ 
+  .navbar a:hover {
+    color: LavenderBlush;
+  }
+  
+  
